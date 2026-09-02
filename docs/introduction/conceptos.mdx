@@ -1,0 +1,66 @@
+---
+title: "Conceptos"
+sidebarTitle: "Conceptos"
+description: "Conceptos clave de Tuna: Control Plane, Node Agent, nodos, máquinas virtuales y cómo se relacionan entre sí."
+---
+
+Esta sección define los conceptos principales utilizados en Tuna.
+
+## VPS
+
+Un **VPS** es una máquina virtual con recursos asignados de CPU, memoria RAM, almacenamiento y red.
+
+Cada VPS funciona de forma independiente y puede ejecutar su propio sistema operativo.
+
+## Node
+
+Un **Node** es un servidor físico que proporciona los recursos necesarios para ejecutar máquinas virtuales.
+
+Un Node dispone de recursos como CPU, memoria RAM y almacenamiento.
+
+## Control Plane
+
+El **Control Plane** es el componente central de Tuna.
+
+Se encarga de gestionar el estado de la infraestructura y coordinar las operaciones realizadas sobre los Nodes y las máquinas virtuales.
+
+## Node Agent
+
+El **Node Agent** es el componente que se ejecuta en cada Node.
+
+Recibe las operaciones del Control Plane y las ejecuta sobre el servidor y las máquinas virtuales.
+
+## Imagen
+
+Una **imagen** es una plantilla utilizada para crear un VPS.
+
+Una imagen puede contener un sistema operativo y la configuración necesaria para iniciar una nueva máquina virtual.
+
+## Recursos
+
+Los recursos determinan la capacidad asignada a un VPS.
+
+Los principales recursos gestionados por Tuna son:
+
+- CPU
+- Memoria RAM
+- Almacenamiento
+- Red
+
+## Red
+
+La **red** proporciona conectividad a las máquinas virtuales.
+
+Tuna gestiona la configuración de red necesaria para conectar los VPS con la infraestructura y, cuando corresponda, con Internet.
+
+## Almacenamiento
+
+El **almacenamiento** contiene los discos virtuales utilizados por los VPS.
+
+Cada máquina virtual dispone de almacenamiento asignado según su configuración.
+
+## Virtual Machine
+
+**Virtual Machine (VM)** es el término utilizado para referirse a una máquina virtual ejecutada sobre un Node.
+
+En Tuna, un VPS corresponde a una máquina virtual gestionada por la plataforma.

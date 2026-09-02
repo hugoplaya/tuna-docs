@@ -1,0 +1,140 @@
+{
+  "theme": "mint",
+  "name": "Tuna",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "logo": {
+    "light": "/images/tuna_logo-light.png",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "navbar": {
+    "links": [
+      {
+        "href": "mailto:hi@mintlify.com",
+        "label": "Support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://app.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ],
+    "display": "header"
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
+        }
+      ]
+    },
+    "groups": [
+      {
+        "group": "Inicio",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Introducción",
+        "pages": [
+          "docs/introduction/que-es-tuna",
+          "docs/introduction/primeros-pasos",
+          "docs/introduction/conceptos",
+          "docs/introduction/terminologia"
+        ]
+      },
+      {
+        "group": "Arquitectura",
+        "pages": [
+          "docs/arquitectura/vision-general",
+          "docs/arquitectura/control-plane",
+          "docs/arquitectura/node-agent",
+          "docs/arquitectura/comunicacion",
+          "docs/arquitectura/virtualizacion"
+        ]
+      },
+      {
+        "group": "Infraestructura",
+        "pages": [
+          "docs/infraestructura/computacion",
+          "docs/infraestructura/redes",
+          "docs/infraestructura/almacenamiento",
+          "docs/infraestructura/imagenes",
+          "docs/infraestructura/maquinas-virtuales"
+        ]
+      },
+      {
+        "group": "Seguridad",
+        "pages": [
+          "docs/seguridad/vision-general",
+          "docs/seguridad/autenticacion",
+          "docs/seguridad/autorizacion",
+          "docs/seguridad/mtls",
+          "docs/seguridad/seguridad-de-red"
+        ]
+      },
+      {
+        "group": "Operaciones",
+        "pages": [
+          "docs/operaciones/nodos",
+          "docs/operaciones/monitorizacion",
+          "docs/operaciones/registros",
+          "docs/operaciones/copias-de-seguridad",
+          "docs/operaciones/solucion-de-problemas"
+        ]
+      },
+      {
+        "group": "Desarrollo",
+        "pages": [
+          "docs/desarrollo/desarrollo-local",
+          "docs/desarrollo/estructura-del-proyecto",
+          "docs/desarrollo/base-de-datos",
+          "docs/desarrollo/pruebas",
+          "docs/desarrollo/contribuciones"
+        ]
+      },
+      {
+        "group": "API",
+        "pages": [
+          "docs/api/vision-general",
+          "docs/api/autenticacion",
+          "docs/api/rest",
+          "docs/api/grpc"
+        ]
+      }
+    ]
+  }
+}
